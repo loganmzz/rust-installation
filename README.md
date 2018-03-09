@@ -1,3 +1,5 @@
+_🇫🇷 Pour les instructions en français, veuillez consulter `LISEZMOI.md`_
+
 ## Installing Rust
 
 ### Standard procedure
