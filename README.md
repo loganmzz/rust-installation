@@ -23,7 +23,7 @@ _Note: If you want a specific version, please consult available [image tags](htt
 
 ### Verification
 
-To check your installation, just run `cargo run` from repository root directory. It should prints
+To check your installation, just run `cargo run` from root directory of  repository [rust-workshop](https://github.com/loganmzz/rust-workshop). It should prints
 
 ```text
 Congrulations !
