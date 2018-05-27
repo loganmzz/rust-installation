@@ -13,7 +13,7 @@ _Note: under Windows, you will have to choose between two options. For `gnu`, yo
 If you don't want to install Rust on your local machine, you can use Docker: 
 
 ```bash
-alias cargo='docker run --rm --tty --user $(id -u) --volume $(pwd):$(pwd) --workdir $(pwd) -e "USER=$(id -un)" loganmzz/rust cargo test'
+alias cargo='docker run --rm --tty --user "$(id -u):$(id -g)" --volume $(pwd):$(pwd) --workdir $(pwd) -e "USER=$(id -un)" loganmzz/rust cargo'
 
 cargo new foobar
 cargo run
