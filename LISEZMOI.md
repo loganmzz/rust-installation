@@ -23,7 +23,7 @@ _Note: Si vous souhaitez une version spécifique, veuillez consulter les [tags d
 
 ### Vérification
 
-Pour contrôler votre installation, exécutez `cargo run` depuis le répertoire racine de ce dépôt. Le message suivant devrait s'afficher :
+Pour contrôler votre installation, exécutez `cargo run` depuis le répertoire racine du dépôt [rust-workshop](https://github.com/loganmzz/rust-workshop). Le message suivant devrait s'afficher :
 
 ```text
 Congrulations !
